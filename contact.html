@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belle &amp; Carrie</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="index.html">Belle &amp; Carrie <span>Rehabilitation Yoga</span></a>
+        </h1>
+        <ul id="navigation">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="404.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="404.html">CLASSES</a>
+                <ul>
+                    <li>
+                        <a href="404.html">INSTRUCTORS</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="current">
+                <a href="contact.html" class="">CONTACT</a>
+            </li>
+            <li>
+                <a href="404.html">BLOG</a>
+            </li>
+        </ul>
+    </header>
+    <div id="body">
+        <h2>Contact:</h2>
+        <form action="" method="post" id="contactForm" name="contactForm" autocomplete="off" onsubmit="validar();">
+            <label for="name">  
+               <span>Name:</span>
+                <input type="text" id="name" name="name" placeholder="John Snow">
+                <span>Mail:</span>
+                <input type="mail" id="email" name="email" placeholder="youknow@nothing.com">
+                <span>Subject:</span>
+                <input type="text" id="subject" placeholder="I love Yoga!">
+                <span>Message:</span>
+                <textarea name="message" id="mesage" cols="30" rows="10" placeholder="I got some things to tell you..."></textarea>
+                <input type="submit" id="send" value="Send">
+            </label>
+        </form>
+    </div>
+    <footer>
+        <div>
+            <span>
+            123 St. City Location, Coutry | 987654321
+            </span>
+            <p onclick="javascript:easter();" id="ea">
+                &copy; 2023 by Belle &amp; Carrie Rehabilitation Yoga. All rights reserved.
+            </p>
+        </div>
+        <div id="connect">
+            <a id="facebook" href="" target="_blank">Facebook</a>
+            <a id="twitter" href="" target="_blank">Twitter</a>
+            <a id="googleplus" href="" target="_blank">Google&#43;</a>
+            <a id="pinterest" href="" target="_blank">Pinterest</a>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript">
+
+
+    </script>
+
+</body>
+
+</html>
